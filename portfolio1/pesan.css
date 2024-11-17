@@ -1,0 +1,226 @@
+*{
+    font-family: 'Times new roman';
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: linear-gradient(to left, white, gray);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.header {
+    display: flex; 
+    background-color: transparent;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 5px 50px;
+    border-bottom: 5px solid black;
+    position: fixed;
+}
+
+.header .homeme {
+    font-size: 15px;
+    color: rgb(58, 12, 133);
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.header .about {
+    font-size: 15px;
+    color: rgb(58, 12, 133);
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.header .galery {
+    font-size: 15px;
+    color: rgb(58, 12, 133);
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.header .contact {
+    font-size: 15px;
+    color: rgb(58, 12, 133);
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+.logo {
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.navbar a:hover {
+    color: red;
+    box-shadow: 3px 5px 5px red;
+}
+
+
+.pesan {
+    height: 100vh;
+    padding: 6rem 1.4rem 7%;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.pesan .pesan-main {
+    backdrop-filter: blur(0px) saturate(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin: 20px;
+}
+
+.pesan .pesan-judul {
+    text-align: center;
+    margin: 20px;
+    margin-top: 10px;
+    color: whitesmoke;
+    margin-bottom:2rem;
+}
+
+
+.pesan .garis {
+    color: aliceblue;
+    margin-top: -20px;
+}
+
+
+.pesan .nama {
+    color: aliceblue;
+    margin: 20px;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.nama .nama-pe {
+    margin-left: 45px;
+}
+
+.nama .tnd {
+    margin-left: 85px;
+}
+
+.pesan .email {
+    color: aliceblue;
+    margin: 20px;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.email .email-and {
+    margin-left: 45px;
+}
+
+.email .tnd-e {
+    margin-left: 85px;
+}
+
+.pesan .no-tlp {
+    color: aliceblue;
+    margin: 20px;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.no-tlp .tnd-t {
+    margin-left: 65px;
+}
+
+.no-tlp .no-tlp-and {
+    margin-left: 45px;
+}
+
+.pesan .text {
+    color: aliceblue;
+    margin: 20px;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.pesan .txt {
+    width: 500px;
+}
+
+.text .tnd-tx {
+    margin-left: -5px;
+}
+
+.text .text-and {
+    margin-left: 40px;
+}
+
+
+.pesan .garis-2 {
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
+
+.pesan .kembali{
+    background-color: bisque;
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 400px;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
